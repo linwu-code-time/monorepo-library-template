@@ -1,0 +1,10 @@
+{
+  "extends": "@cete/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "./packages",
+    "paths": {
+      "@ohbug/*": ["packages/*/src"]
+    }
+  }
+}
